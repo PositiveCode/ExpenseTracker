@@ -1,0 +1,13 @@
+<resources>
+    <!--margin values-->
+    <dimen name="margin_standard_8dp">8dp</dimen>
+    <dimen name="margin_standard_16dp">16dp</dimen>
+    <dimen name="margin_standard_24dp">24dp</dimen>
+    <dimen name="margin_standard_32dp">32dp</dimen>
+
+    <!-- text sizes values-->
+    <dimen name="textsize_standard_12sp">12sp</dimen>
+    <dimen name="textsize_standard_16sp">16sp</dimen>
+    <dimen name="textsize_standard_20sp">20sp</dimen>
+    <dimen name="textsize_standard_24sp">24sp</dimen>
+</resources>
