@@ -27,7 +27,10 @@
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_below="@+id/toolbar"
-        android:layout_margin="@dimen/margin_standard_16dp"
+        android:layout_marginStart="@dimen/margin_standard_16dp"
+        android:layout_marginTop="@dimen/margin_standard_32dp"
+        android:layout_marginEnd="@dimen/margin_standard_16dp"
+        android:layout_marginBottom="@dimen/margin_standard_32dp"
         app:cardCornerRadius="16dp">
 
         <LinearLayout
@@ -127,21 +130,34 @@
 
     <TextView
         android:id="@+id/tvRecentTransactions"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/cvSummary"
-        android:layout_marginStart="@dimen/margin_standard_16dp"
-        android:layout_marginEnd="@dimen/margin_standard_16dp"
-        android:layout_marginBottom="@dimen/margin_standard_16dp"
+        android:layout_marginStart="@dimen/margin_standard_32dp"
+        android:layout_marginEnd="@dimen/margin_standard_32dp"
+        android:layout_marginBottom="@dimen/margin_standard_32dp"
         android:text="Recent Transactions"
-        android:textSize="@dimen/textsize_standard_12sp" />
+        android:textSize="@dimen/textsize_standard_16sp" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecentTransactions"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/tvRecentTransactions"
         android:layout_marginStart="@dimen/margin_standard_16dp"
         android:layout_marginEnd="@dimen/margin_standard_16dp"
+        android:paddingBottom="@dimen/margin_standard_8dp"
         tools:listitem="@layout/item_transactions" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_standard_16dp"
+        android:src="@drawable/ic_plus"
+        app:fabSize="mini"
+        app:maxImageSize="40dp" />
 
 </RelativeLayout>

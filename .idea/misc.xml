@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Dev/Android/ExpenseTracker/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Dev/Android/ExpenseTracker/app/src/main/res/layout/activity_home.xml" value="0.2515090543259557" />
+        <entry key="..\:/Dev/Android/ExpenseTracker/app/src/main/res/layout/dialog_expense_details.xml" value="0.4" />
+        <entry key="..\:/Dev/Android/ExpenseTracker/app/src/main/res/layout/dialog_income_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Dev/Android/ExpenseTracker/app/src/main/res/layout/dialog_select_expense.xml" value="0.264" />
+        <entry key="..\:/Dev/Android/ExpenseTracker/app/src/main/res/layout/dialog_verify_email.xml" value="0.264" />
         <entry key="..\:/Dev/Android/ExpenseTracker/app/src/main/res/layout/item_transactions.xml" value="0.4" />
       </map>
     </option>
