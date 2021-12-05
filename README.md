@@ -18,6 +18,8 @@ Instructions for build and run:
 7. Wait for project to build and run. 
 8. Profit $$. 
 
-***** This project is only a User Interface!  *****
+***** This project is only a User Interface Design!  *****
+
 ***** There are no working functionalities! *****
-***** Thanks you! *****
+
+***** Thank you! *****
